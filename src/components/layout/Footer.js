@@ -11,6 +11,74 @@ export default class Footer extends Component {
       <footer>
           <div className="footerCenter">
               <div className="col-lg-11 mx-auto">
+                  <div className="row">
+                      <div className="col">
+                        <div className="footerList">
+                            <strong className="title">Social</strong>
+                            <ul>
+                                <li><a>Contact Us</a></li>
+                                <li><a>Support Center</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Copyright</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className="col">
+                        <div className="footerList">
+                            <strong className="title">Contact</strong>
+                            <ul>
+                                <li><a>Contact Us</a></li>
+                                <li><a>Support Center</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Copyright</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className="col">
+                        <div className="footerList">
+                            <strong className="title">About</strong>
+                            <ul>
+                                <li><a>Contact Us</a></li>
+                                <li><a>Support Center</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Copyright</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className="col">
+                        <div className="footerList">
+                            <strong className="title">Customer Care</strong>
+                            <ul>
+                                <li><a>Contact Us</a></li>
+                                <li><a>Support Center</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Copyright</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className="col">
+                        <div className="footerList">
+                            <strong className="title">Social</strong>
+                            <ul>
+                                <li><a>Contact Us</a></li>
+                                <li><a>Support Center</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Copyright</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className="col">
+                        <div className="footerList">
+                            <strong className="title">Social</strong>
+                            <ul>
+                                <li><a>Contact Us</a></li>
+                                <li><a>Support Center</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Copyright</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
               </div>
           </div>
           <div className="footerBottom">
