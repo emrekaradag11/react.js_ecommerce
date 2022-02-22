@@ -4,6 +4,7 @@ import visa from '../../assets/img/visa.svg';
 import paypal from '../../assets/img/paypal.svg';
 import jcb from '../../assets/img/jcb.svg';
 import skrill from '../../assets/img/skrill.svg';
+import {Link} from 'react-router-dom'
 
 export default class Footer extends Component {
   render() {
@@ -16,10 +17,10 @@ export default class Footer extends Component {
                         <div className="footerList">
                             <strong className="title">Social</strong>
                             <ul>
-                                <li><a>Contact Us</a></li>
-                                <li><a>Support Center</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Copyright</a></li>
+                                <li><Link to="/">Contact Us</Link></li>
+                                <li><Link to="/">Support Center</Link></li>
+                                <li><Link to="/">About</Link></li>
+                                <li><Link to="/">Copyright</Link></li>
                             </ul>
                         </div>
                       </div>
@@ -27,10 +28,10 @@ export default class Footer extends Component {
                         <div className="footerList">
                             <strong className="title">Contact</strong>
                             <ul>
-                                <li><a>Contact Us</a></li>
-                                <li><a>Support Center</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Copyright</a></li>
+                                <li><Link to="/">Contact Us</Link></li>
+                                <li><Link to="/">Support Center</Link></li>
+                                <li><Link to="/">About</Link></li>
+                                <li><Link to="/">Copyright</Link></li>
                             </ul>
                         </div>
                       </div>
@@ -38,10 +39,10 @@ export default class Footer extends Component {
                         <div className="footerList">
                             <strong className="title">About</strong>
                             <ul>
-                                <li><a>Contact Us</a></li>
-                                <li><a>Support Center</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Copyright</a></li>
+                                <li><Link to="/">Contact Us</Link></li>
+                                <li><Link to="/">Support Center</Link></li>
+                                <li><Link to="/">About</Link></li>
+                                <li><Link to="/">Copyright</Link></li>
                             </ul>
                         </div>
                       </div>
@@ -49,10 +50,10 @@ export default class Footer extends Component {
                         <div className="footerList">
                             <strong className="title">Customer Care</strong>
                             <ul>
-                                <li><a>Contact Us</a></li>
-                                <li><a>Support Center</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Copyright</a></li>
+                                <li><Link to="/">Contact Us</Link></li>
+                                <li><Link to="/">Support Center</Link></li>
+                                <li><Link to="/">About</Link></li>
+                                <li><Link to="/">Copyright</Link></li>
                             </ul>
                         </div>
                       </div>
@@ -60,10 +61,10 @@ export default class Footer extends Component {
                         <div className="footerList">
                             <strong className="title">Social</strong>
                             <ul>
-                                <li><a>Contact Us</a></li>
-                                <li><a>Support Center</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Copyright</a></li>
+                                <li><Link to="/">Contact Us</Link></li>
+                                <li><Link to="/">Support Center</Link></li>
+                                <li><Link to="/">About</Link></li>
+                                <li><Link to="/">Copyright</Link></li>
                             </ul>
                         </div>
                       </div>
@@ -71,10 +72,10 @@ export default class Footer extends Component {
                         <div className="footerList">
                             <strong className="title">Social</strong>
                             <ul>
-                                <li><a>Contact Us</a></li>
-                                <li><a>Support Center</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Copyright</a></li>
+                                <li><Link to="/">Contact Us</Link></li>
+                                <li><Link to="/">Support Center</Link></li>
+                                <li><Link to="/">About</Link></li>
+                                <li><Link to="/">Copyright</Link></li>
                             </ul>
                         </div>
                       </div>

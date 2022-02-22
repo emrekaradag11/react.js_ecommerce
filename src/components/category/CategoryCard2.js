@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from "prop-types";
+import {Link} from 'react-router-dom'
 
 const categoryCard2 = function(props){
   return (
     <div className="categoryType2">
-        <a className="item">
+        <Link to="/" className="item">
             <strong className="title">{props.data.name}</strong>
             <div className="images">
                 <div className="row">
@@ -22,7 +23,7 @@ const categoryCard2 = function(props){
                   }
                 </div>
             </div>
-        </a>
+        </Link>
     </div>
   )
 }

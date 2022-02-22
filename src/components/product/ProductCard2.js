@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from "prop-types";
+import {Link} from 'react-router-dom'
 
 
 const ProductCard2 = (props) => {
@@ -18,7 +19,7 @@ const ProductCard2 = (props) => {
     return (
         <div className={customClass}>
             <div className="productType2">
-                <a href={slug} className="item">
+                <Link to={slug} className="item">
                     <div className="img">
                         <img src={img} alt={Title}/>
                     </div>
@@ -30,7 +31,7 @@ const ProductCard2 = (props) => {
                             <del className="discount">{discountPrice2}</del>
                         </div>
                     </div>
-                </a>
+                </Link>
             </div>
         </div>
     )

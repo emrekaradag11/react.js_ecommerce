@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import PropTypes from "prop-types";
 import RightArrow from '../../assets/img/rightArrow.svg';
+import {Link} from 'react-router-dom'
 
 const CategoryCard1 = (props) => {
     return (
         <li>
-            <a href={props.data.slug} className="item">
+            <Link to={props.data.slug} className="item">
                 <div className="left">
                     <div className="img">
                         <img src={props.data.image.original} alt={props.data.name} />
@@ -18,7 +19,7 @@ const CategoryCard1 = (props) => {
                         <img src={RightArrow} alt="Right Arrow" />
                     </div>
                 </div>
-            </a>
+            </Link>
         </li>
     )
 }

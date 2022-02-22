@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from "prop-types";
+import {Link} from 'react-router-dom'
 
 const BrandList1 = (props) => {
   return (
     <div className={props.customClass + " brandList1"}>
-        <a href={props.data.slug} className="item">
+        <Link to={props.data.slug} className="item">
           <div className="img">
             <img src={props.data.image.original} alt={props.data.name} />
           </div>
           <strong className="title">{props.data.name}</strong>
-        </a>
+        </Link>
     </div>
   )
 }

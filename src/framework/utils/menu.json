@@ -1,0 +1,510 @@
+[
+    {
+        "id" :  1,
+        "slug" :  "/",
+        "label" :  "Home"
+    },
+    {
+        "id" :  2,
+        "slug" :  "/search?q=men-wear",
+        "label" :  "Men Wear",
+        "subMenu": [
+            {
+                "id" :  1,
+                "slug" :  "/search?q=top-wear",
+                "label" :  "Top Wear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=t-shit-shirtrt",
+                        "label" :  "T-Shirt"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=casual-shirts",
+                        "label" :  "Casual Shirts"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=formal-shirts",
+                        "label" :  "Formal Shirts"
+                    },
+                    {
+                        "id" :  4,
+                        "slug" :  "/search?q=blazwers-coats",
+                        "label" :  "Blazwers Coats"
+                    },
+                    {
+                        "id" :  5,
+                        "slug" :  "/search?q=suits",
+                        "label" :  "Suits"
+                    },
+                    {
+                        "id" :  6,
+                        "slug" :  "/search?q=jackets",
+                        "label" :  "Jackets"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=western-wear",
+                "label" :  "Western Wear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=dresses",
+                        "label" :  "Dresses"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=jumpsuits",
+                        "label" :  "Jumpsuits"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=tops-t-shirt",
+                        "label" :  "Tops Shirts"
+                    },
+                    {
+                        "id" :  4,
+                        "slug" :  "/search?q=shorts-skirts",
+                        "label" :  "Shorts Skirts"
+                    },
+                    {
+                        "id" :  5,
+                        "slug" :  "/search?q=shurgs",
+                        "label" :  "Shurgs"
+                    },
+                    {
+                        "id" :  6,
+                        "slug" :  "/search?q=blazers",
+                        "label" :  "Blazers"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=footwear",
+                "label" :  "Footwear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=flats",
+                        "label" :  "Flats"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=casual-shoes",
+                        "label" :  "Casual Shoes"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=heels",
+                        "label" :  "Heels"
+                    },
+                    {
+                        "id" :  4,
+                        "slug" :  "/search?q=boots",
+                        "label" :  "Boots"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=lingerie-sleepwear",
+                "label" :  "Lingerie Sleepwear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=bra",
+                        "label" :  "Bra"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=briefs",
+                        "label" :  "Briefs"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=sleepwear",
+                        "label" :  "Sleepwear"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=gadgets",
+                "label" :  "Gadgets",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=smart-wearables",
+                        "label" :  "Smart Wearables"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=headphones",
+                        "label" :  "Headphones"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id" :  3,
+        "slug" :  "/search?q=women-wear",
+        "label" :  "Women Wear",
+        "subMenu": [
+            {
+                "id" :  1,
+                "slug" :  "/search?q=gadgets",
+                "label" :  "Gadgets",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=smart-wearables",
+                        "label" :  "Smart Wearables"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=headphones",
+                        "label" :  "Headphones"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=top-wear",
+                "label" :  "Top Wear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=t-shit-shirtrt",
+                        "label" :  "T-Shirt"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=casual-shirts",
+                        "label" :  "Casual Shirts"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=formal-shirts",
+                        "label" :  "Formal Shirts"
+                    },
+                    {
+                        "id" :  4,
+                        "slug" :  "/search?q=blazwers-coats",
+                        "label" :  "Blazwers Coats"
+                    },
+                    {
+                        "id" :  5,
+                        "slug" :  "/search?q=suits",
+                        "label" :  "Menu Suits"
+                    },
+                    {
+                        "id" :  6,
+                        "slug" :  "/search?q=jackets",
+                        "label" :  "Menu Jackets"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=footwear",
+                "label" :  "Menu Footwear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=flats",
+                        "label" :  "Menu Flats"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=casual-shoes",
+                        "label" :  "Casual Shoes"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=heels",
+                        "label" :  "Heels"
+                    },
+                    {
+                        "id" :  4,
+                        "slug" :  "/search?q=boots",
+                        "label" :  "Boots"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=western-wear",
+                "label" :  "menu-western-wear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=dresses",
+                        "label" :  "Dresses"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=jumpsuits",
+                        "label" :  "Jumpsuits"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=tops-t-shirt",
+                        "label" :  "Tops Shirts"
+                    },
+                    {
+                        "id" :  4,
+                        "slug" :  "/search?q=shorts-skirts",
+                        "label" :  "Shorts Skirts"
+                    },
+                    {
+                        "id" :  5,
+                        "slug" :  "/search?q=shurgs",
+                        "label" :  "Shurgs"
+                    },
+                    {
+                        "id" :  6,
+                        "slug" :  "/search?q=blazers",
+                        "label" :  "Blazers"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=lingerie-sleepwear",
+                "label" :  "Lingerie Sleepwear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=bra",
+                        "label" :  "Bra"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=briefs",
+                        "label" :  "Briefs"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=sleepwear",
+                        "label" :  "Sleepwear"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id" :  4,
+        "slug" :  "/search?q=casual-wear",
+        "label" :  "Casual Wear",
+        "subMenu": [
+            {
+                "id" :  1,
+                "slug" :  "/search?q=gadgets",
+                "label" :  "Gadgets",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=smart-wearables",
+                        "label" :  "Smart Wearables"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=headphones",
+                        "label" :  "Headphones"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=top-wear",
+                "label" :  "Top Wear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=t-shit-shirtrt",
+                        "label" :  "T-Shirt"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=casual-shirts",
+                        "label" :  "Casual Shirts"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=formal-shirts",
+                        "label" :  "Formal Shirts"
+                    },
+                    {
+                        "id" :  4,
+                        "slug" :  "/search?q=blazwers-coats",
+                        "label" :  "Blazwers Coats"
+                    },
+                    {
+                        "id" :  5,
+                        "slug" :  "/search?q=suits",
+                        "label" :  "Suits"
+                    },
+                    {
+                        "id" :  6,
+                        "slug" :  "/search?q=jackets",
+                        "label" :  "Jackets"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=footwear",
+                "label" :  "Footwear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=flats",
+                        "label" :  "Flats"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=casual-shoes",
+                        "label" :  "Casual Shoes"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=heels",
+                        "label" :  "Heels"
+                    },
+                    {
+                        "id" :  4,
+                        "slug" :  "/search?q=boots",
+                        "label" :  "Boots"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=western-wear",
+                "label" :  "Western Wear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=dresses",
+                        "label" :  "Dresses"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=jumpsuits",
+                        "label" :  "Jumpsuits"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=tops-t-shirt",
+                        "label" :  "Tops Shirts"
+                    },
+                    {
+                        "id" :  4,
+                        "slug" :  "/search?q=shorts-skirts",
+                        "label" :  "Shorts Skirts"
+                    },
+                    {
+                        "id" :  5,
+                        "slug" :  "/search?q=shurgs",
+                        "label" :  "Shurgs"
+                    },
+                    {
+                        "id" :  6,
+                        "slug" :  "/search?q=blazers",
+                        "label" :  "Blazers"
+                    }
+                ]
+            },
+            {
+                "id" :  1,
+                "slug" :  "/search?q=lingerie-sleepwear",
+                "label" :  "Lingerie Sleepwear",
+                "subMenu": [
+                    {
+                        "id" :  1,
+                        "slug" :  "/search?q=bra",
+                        "label" :  "Bra"
+                    },
+                    {
+                        "id" :  2,
+                        "slug" :  "/search?q=briefs",
+                        "label" :  "Briefs"
+                    },
+                    {
+                        "id" :  3,
+                        "slug" :  "/search?q=sleepwear",
+                        "label" :  "Sleepwear"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id" :  5,
+        "slug" :  "/productlist",
+        "label" :  "Product List"
+    },
+    {
+        "id" :  6,
+        "slug" :  "/",
+        "label" :  "Pages",
+        "subMenu": [
+            {
+                "id" :  1,
+                "slug" :  "/",
+                "label" :  "Menu Users"
+            },
+            {
+                "id" :  2,
+                "slug" :  "/faq",
+                "label" :  "Menu Faq"
+            },
+            {
+                "id" :  3,
+                "slug" :  "/privacy",
+                "label" :  "Privacy Policy"
+            },
+            {
+                "id" :  4,
+                "slug" :  "/terms",
+                "label" :  "Terms Condition"
+            },
+            {
+                "id" :  5,
+                "slug" :  "/contact-us",
+                "label" :  "Contact Us"
+            },
+            {
+                "id" :  6,
+                "slug" :  "/checkout",
+                "label" :  "Checkout"
+            },
+            {
+                "id" :  7,
+                "slug" :  "/collections/mens-collection",
+                "label" :  "Collection"
+            },
+            {
+                "id" :  8,
+                "slug" :  "/category/man",
+                "label" :  "Category"
+            },
+            {
+                "id" :  9,
+                "slug" :  "/order",
+                "label" :  "Order"
+            },
+            {
+                "id" :  10,
+                "slug" :  "/404",
+                "label" :  "404"
+            }
+        ]
+    }
+]

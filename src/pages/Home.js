@@ -1,16 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Header from './Header';
-import Footer from './Footer';
-import ProductCard1 from './../product/ProductCard1'
-import ProductCard2 from './../product/ProductCard2'
-import CategoryCard1 from './../category/CategoryCard1'
-import CategoryCard2 from './../category/CategoryCard2'
-import BrandList1 from './../brands/BrandList1'
-import Newsletter from './../common/Newsletter'
-import banner1 from '../../assets/img/banner-1.jpg';
-import banner2 from '../../assets/img/banner-2.jpg';
-import banner3 from '../../assets/img/banner-3.jpg';
+import ProductCard1 from '../components/product/ProductCard1'
+import ProductCard2 from '../components/product/ProductCard2'
+import CategoryCard1 from '../components/category/CategoryCard1'
+import CategoryCard2 from '../components/category/CategoryCard2'
+import BrandList1 from '../components/brands/BrandList1'
+import banner1 from '../assets/img/banner-1.jpg';
+import banner2 from '../assets/img/banner-2.jpg';
+import banner3 from '../assets/img/banner-3.jpg';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
@@ -20,14 +17,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 
-const Layout = (props) => {
+const Home = (props) => {
 
   return (
-    <div className="layout">
-        <Header />
+    <div className="Home">
         <main>
           <div className="section1">
-            <div className="col-xl-11 mx-auto">
+            <div className="container mx-auto">
               <div className="row">
                 <div className="col-lg-3">
                   <ul className="categoryList">
@@ -101,7 +97,7 @@ const Layout = (props) => {
           </div>
         </main>
         <div className="section2">
-          <div className="col-lg-11 mx-auto">
+          <div className="container mx-auto">
             <div className="row">
               {
                 props.productDatas.map(p => {
@@ -123,7 +119,7 @@ const Layout = (props) => {
         </div>
 
         <div className="section3">
-          <div className="col-lg-11 mx-auto">
+          <div className="container mx-auto">
               <div className="row">
 
                 <Swiper
@@ -156,7 +152,7 @@ const Layout = (props) => {
         </div>
         
         <div className="categoryList1">
-          <div className="col-lg-11 mx-auto">
+          <div className="container mx-auto">
             <div className="row">
               {
                 props.FeaturedCategories.map((ff,key) => {
@@ -175,23 +171,21 @@ const Layout = (props) => {
             </div>
           </div>
         </div>
-        <Newsletter />
-        <Footer />
     </div>
   )
 }
 
 
-Layout.propTypes = {
+Home.propTypes = {
   productDatas : PropTypes.array,
   flashSale : PropTypes.object,
   FeaturedCategories : PropTypes.array,
   Categories : PropTypes.array,
 }
-Layout.defaultProps = {
+Home.defaultProps = {
   productDatas : [],
   flashSale : {},
   FeaturedCategories : [],
   Categories : [],
 }
-export default Layout;
+export default Home;

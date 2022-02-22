@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from "prop-types";
+import {Link} from 'react-router-dom'
 
 const ProductCard1 = (props) => { 
 
@@ -16,7 +17,7 @@ const ProductCard1 = (props) => {
 
     return ( 
         <div className="productType1">
-            <a href={slug} className="item">
+            <Link to={slug} className="item">
                 <div className="img">
                     <img src={img} alt={Title}/>
                 </div>
@@ -35,7 +36,7 @@ const ProductCard1 = (props) => {
                         <div className="avaibleStatus"><div style={{width : ((sold / quantity) * 100) + "%"}} className="statusBar"></div></div>
                     </div>
                 </div>
-            </a>
+            </Link>
         </div> 
     )
 }
